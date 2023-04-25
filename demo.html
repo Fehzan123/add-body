@@ -32,12 +32,12 @@
   </div>
   <script>
    
-      var seconditem=document.querySelector('.list-group-item:nth-child(2)');
-      seconditem.style.backgroundColor='green';
-       var thirditem=document.querySelector('.list-group-item:nth-child(3)');
-       thirditem.style.color='transparent';
-       var thirditem=document.querySelector('.list-group-item:nth-child(3)');
-       thirditem.style.color='transparent';
+      
+      var cfcg=document.querySelectorAll('.list-group-item');
+      cfcg[1].style.color='green';
+      for(var i=0;i<cfcg.length;i+=2){
+        cfcg[i].style.backgroundColor='green';
+      }
     
     
     
