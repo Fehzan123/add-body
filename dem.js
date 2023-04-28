@@ -20,7 +20,7 @@ itemList.addEventListener('click',removeItem);
 function addItem(e){
     
     e.preventDefault();
-    var newItem=document.getElementById('item').value;
+    var newItem=document.getElementById('item').value+" "+document.getElementById('item2').value;
     // creat li Eliment
     var li=document.createElement('li');
     // creat li class
