@@ -1,0 +1,13 @@
+#form{
+    position: relative;
+    text-align: center;
+    top: 20vh;
+}
+#label2{
+    position: relative;
+    right: 4rem;
+}
+#label1{
+    position: relative;
+    right: 3.5rem;
+}
